@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Vadodara&display=swap');
+/*  */
+
+body,
+button,
+input {
+    font-family: 'Hind Vadodara', sans-serif;
+}
+
+button {
+    background: #1132be;
+    padding: 8px 20px;
+    color: #fff;
+    border: 1px solid #222;
+    border-radius: 50px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover,
+button.active {
+    background: #2d55ff;
+
+}
+
+button:disabled,
+button[disabled] {
+    background-color: #cccccc;
+    color: #fff;
+    cursor: no-drop;
+}
+
+.btn-black {
+    background: #222;
+    color: #fff;
+}
+
+/*  */
+.container {
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*  */
+.upload-container {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.upload-file-container {
+    width: 400px;
+    border-radius: 5px;
+}
+
+.upload-file-button {
+    border: 5px solid #d9d9d9;
+    background: #f9f9f9;
+    padding: 20px 0;
+    border-radius: 5px;
+}
+
+.upload-file-hint {
+    font-size: 12px;
+    color: red;
+    margin-top: 5px;
+}
+
+/*  */
+.preview-container {
+    border: 5px solid #ddd;
+    border-radius: 10px;
+    width: 700px;
+    padding: 30px;
+    margin-top: 40px;
+    background-color: white;
+}
+
+.preview-title {
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.preview-option {
+    display: flex;
+    justify-content: space-between;
+}
+
+.preview-content {
+    word-wrap: break-word;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.preview-content img {
+    width: 100%;
+}
+
+/*  */
+.ml-5 {
+    margin-left: 5px;
+}
